@@ -2,14 +2,23 @@
   "name": "clone-tabnews",
   "version": "1.0.0",
   "description": "Implementação do https://www.tabnews.cvom.br para o https://curso.dev",
+  "homepage": "https://github.com/elizabethesantos/clone-tabnews#readme",
+  "bugs": {
+    "url": "https://github.com/elizabethesantos/clone-tabnews/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elizabethesantos/clone-tabnews.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write ."
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "next": "^13.1.6",
     "react": "^18.2.0",
